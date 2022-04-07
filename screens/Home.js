@@ -21,13 +21,13 @@ export default class HomeScreen extends Component {
           resizeMode="cover"
           style={styles.backgroundImage}>
           <View style={styles.titleBar}>
-            <Text style={styles.titleText}>App rastreadora de la EEI</Text>
+            <Text style={styles.titleText}>Aplicación rastreadora de la EEI</Text>
           </View>
 
           <TouchableOpacity
             style={styles.routeCard}>
-            <Text style={styles.routeText}>Ubicación EEI</Text>
-            <Text style={styles.knowMore}>{'Conoce más --->'}</Text>
+            <Text style={styles.routeText}>Localización EEI</Text>
+            <Text style={styles.knowMore}>{'Más información --->'}</Text>
             <Image
               source={require('../assets/iss_icon.png')}
               style={styles.iconImage}></Image>
@@ -35,14 +35,14 @@ export default class HomeScreen extends Component {
 
           <TouchableOpacity style={styles.routeCard}>
             <Text style={styles.routeText}>Meteoritos</Text>
-            <Text style={styles.knowMore}>{'Conoce más --->'}</Text>
+            <Text style={styles.knowMore}>{'Más información --->'}</Text>
             <Image
               source={require('../assets/meteor_icon.png')}
               style={styles.iconImage}></Image>
           </TouchableOpacity>
           <TouchableOpacity style={styles.routeCard}>
             <Text style={styles.routeText}>Actualizaciones</Text>
-            <Text style={styles.knowMore}>{'Conoce más --->'}</Text>
+            <Text style={styles.knowMore}>{'Más información --->'}</Text>
             <Image
               source={require('../assets/rocket_icon.png')}
               style={styles.iconImage}></Image>
